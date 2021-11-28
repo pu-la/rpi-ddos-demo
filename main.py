@@ -1,3 +1,5 @@
+title = ""
+version = "0"
 import os
 import sys
 import json
