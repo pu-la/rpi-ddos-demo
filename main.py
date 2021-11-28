@@ -1,3 +1,16 @@
+import os
+import sys
+import json
+import time
+import string
+import signal
+import  http.client,urllib.parse
+from random import *
+from socket import *
+from struct import *
+from threading import *
+from argparse import ArgumentParser,RawTextHelpFormatter
+
 if os.name == 'posix':
 	c = os.system('which pip')
 	if c == 256:
